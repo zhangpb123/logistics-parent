@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="logistics-common" />
-        <module name="logistics-manager-dao" />
-        <module name="logistics-manager-web" />
-        <module name="logistics-manager-pojo" />
         <module name="logistics-manager-service" />
+        <module name="logistics-manager-dao" />
+        <module name="logistics-manager-pojo" />
+        <module name="logistics-common" />
+        <module name="logistics-manager-web" />
       </profile>
     </annotationProcessing>
   </component>
