@@ -1,53 +1,83 @@
 package com.biao.pojo;
 
 public class User {
-    private Integer id;
+    private Integer userId;
 
-    private String username;
+    private String userName;
 
-    private String address;
+    private String realName;
 
-    private String gender;
+    private String password;
 
-    private String hobby;
+    private String email;
 
-    public Integer getId() {
-        return id;
+    private Long phone;
+
+    private String u1;
+
+    private String u2;
+
+    public Integer getUserId() {
+        return userId;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setUserId(Integer userId) {
+        this.userId = userId;
     }
 
-    public String getUsername() {
-        return username;
+    public String getUserName() {
+        return userName;
     }
 
-    public void setUsername(String username) {
-        this.username = username == null ? null : username.trim();
+    public void setUserName(String userName) {
+        this.userName = userName == null ? null : userName.trim();
     }
 
-    public String getAddress() {
-        return address;
+    public String getRealName() {
+        return realName;
     }
 
-    public void setAddress(String address) {
-        this.address = address == null ? null : address.trim();
+    public void setRealName(String realName) {
+        this.realName = realName == null ? null : realName.trim();
     }
 
-    public String getGender() {
-        return gender;
+    public String getPassword() {
+        return password;
     }
 
-    public void setGender(String gender) {
-        this.gender = gender == null ? null : gender.trim();
+    public void setPassword(String password) {
+        this.password = password == null ? null : password.trim();
     }
 
-    public String getHobby() {
-        return hobby;
+    public String getEmail() {
+        return email;
     }
 
-    public void setHobby(String hobby) {
-        this.hobby = hobby == null ? null : hobby.trim();
+    public void setEmail(String email) {
+        this.email = email == null ? null : email.trim();
+    }
+
+    public Long getPhone() {
+        return phone;
+    }
+
+    public void setPhone(Long phone) {
+        this.phone = phone;
+    }
+
+    public String getU1() {
+        return u1;
+    }
+
+    public void setU1(String u1) {
+        this.u1 = u1 == null ? null : u1.trim();
+    }
+
+    public String getU2() {
+        return u2;
+    }
+
+    public void setU2(String u2) {
+        this.u2 = u2 == null ? null : u2.trim();
     }
 }
